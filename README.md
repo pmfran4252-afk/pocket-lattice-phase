@@ -49,6 +49,39 @@ Recomputes every headline figure from `results/*.json` with independent code and
 different bootstrap seed. No structures, no network, seconds to run. This is the
 check a sceptical reader should run first.
 
+## A tool you can point at your own data
+
+`tools/channel_audit.py` — single file, numpy only, no install.
+
+```bash
+python tools/channel_audit.py your_features.csv --drop --curve
+```
+
+One row per residue (or per anything), one column per channel. It reports the
+effective number of independent channels, a calibrated shuffle null, the most
+redundant and most independent pairs, and — with `--drop` — what each channel
+contributes, so you can see which ones are paying for themselves.
+
+Four things a group can use it for:
+
+  * **audit a feature table before training on it.** If sixty features carry
+    eight effective dimensions, feature-importance rankings are unstable,
+    because correlated features split importance arbitrarily.
+  * **decide whether an expensive channel is worth computing.** MD-derived
+    flexibility or coevolution costs CPU-days. Measure the panel with and
+    without it; if it buys 0.05 axes, skip it.
+  * **test a claim of orthogonal evidence.** "Five independent lines" is
+    measurable, and is often 2.2 lines wearing five hats.
+  * **catch broken channels.** A channel at rho 1.00 with another is a bug. On
+    its first run against real data this tool found an identifier column left
+    in a table by its own author.
+
+**It measures overlap, not usefulness.** Two orthogonal but worthless channels
+score as independent. The tool prints this reminder on every run.
+
+`tools/example_ctnnb1.csv` is a worked example: 507 residues by 17 structural
+and sequence channels.
+
 ## Layout
 
 ```
@@ -62,6 +95,7 @@ results/      per-target results as written by each run
 registration/ a prospective site prediction, frozen by SHA-256 before any other
               method was applied to that surface
 verify/       re-derives the paper's numbers from results/
+tools/        channel_audit.py, usable on any feature table
 ```
 
 `lib/` replaces two files that previously lived in an unpublished repository. Both
