@@ -1,0 +1,114 @@
+{
+ "artifact_type": "frozen_site_prediction",
+ "confirmed_if": "a bound small molecule or fragment with contact set Jaccard >= 0.30 against the 23 residues, by any localising method",
+ "declared_in_advance": [
+  "The 23 residues are final. No re-ranking or re-clustering, whatever any later result shows.",
+  "The detector is frozen by hash; a later version does not re-derive this list.",
+  "The broken-detector list of 24 residues is recorded (Jaccard 0.880) so neither can be quietly preferred.",
+  "The specificity statistic is not a gate: it rejects HRAS's confirmed pocket at the same p = 0.100."
+ ],
+ "detector": {
+  "function": "pockets_consensus",
+  "note": "LIGSITE, origin snapped to the lattice, averaged over 4 sub-voxel phases",
+  "path": "src/loki/stable_pockets.py",
+  "sha256": "e693d692846e9fb0d3787aa987d0c3fedfe3ef32a53802ab4b326abce07aa6e9"
+ },
+ "endpoints": {
+  "crystal_contact_burial": {
+   "background": 0.12,
+   "site": 0.05
+  },
+  "groove_axis_projection_A": {
+   "groove": 7.2,
+   "protein_mean": -1.2,
+   "site": -28.3
+  },
+  "jaccard_vs_known_ligand_site": 0.0,
+  "jaccard_vs_union_of_partner_interfaces": 0.03,
+  "known_ligand_contact_set": [
+   302,
+   306,
+   338,
+   342,
+   345,
+   346,
+   376,
+   380
+  ],
+  "partner_interfaces_tested": 22,
+  "reproducibility_p": 0.0,
+  "site_residues_within_5A_of_any_partner": 0
+ },
+ "falsified_if": [
+  "F1 a >=500-fragment screen that samples this surface returns hits elsewhere on beta-catenin and none here at Jaccard 0.30",
+  "F2 >=3 further wild-type apo structures are deposited and support falls below 50% under the hashed detector",
+  "F3 the surface is an interface for a partner not among the 22 tested, at Jaccard >= 0.30",
+  "F4 a structure from a different construct and space group lacks the site under the hashed detector"
+ ],
+ "frozen_date": "2026-09-11",
+ "generates_no_structures": true,
+ "inputs": {
+  "apo_structures": {
+   "2Z6H": "678fb01cd2862d46d4a13478d784aaafa0a367a0e353847b62f273370f46eee8",
+   "8Y0G": "6bc492c36e9faab0ff102e666edf6cafa6c08c1383d93a256f8277e149ecd544",
+   "8Y14": "89f242e53a6f957550e6a4cf1b1463b7ad15b6cd1bdd7bb3f87d88ee488e40e1",
+   "8Z0U": "cd96ab654fcb13eb63ae46b4ce6e0c06f894ef6a363684a20b470606b9eb7c49",
+   "8Z10": "770c31ed58983d2b319c51637d45674bbb7c156ef920b03fcca6375afb515357",
+   "8Z5J": "63bafa4ab217a2f92018a66f9991a5dcb986bd7d866c5ab2535f52425ab184a1",
+   "8Z61": "91f523ccf86dde819f44fcda54ec5b37fedf9368a41d7362bf52ec59fa572950",
+   "9I8K": "5530f11cc0d058495b9529741c5cb6c96e6852298823ba592e57f967879043b8"
+  },
+  "support": "8/8"
+ },
+ "makes_no_functional_claim": true,
+ "not_falsification": "absence of a published ligand; no one has looked here",
+ "payload_sha256": "723810273cb78577f0a54157affbd30b83fbcf2c418624697e51af36d76d9eb4",
+ "positive_control": {
+  "jaccard_vs_own_ligand_site": 0.63,
+  "p": 0.0,
+  "support": "12/12",
+  "target": "HRAS"
+ },
+ "prediction": {
+  "claim": "a small molecule can be made to bind a pocket lined by these residues",
+  "location": "convex outer face of the armadillo superhelix, not the concave groove",
+  "n_residues": 23,
+  "residues": [
+   543,
+   544,
+   545,
+   546,
+   547,
+   548,
+   566,
+   567,
+   568,
+   570,
+   571,
+   598,
+   600,
+   601,
+   602,
+   603,
+   604,
+   605,
+   606,
+   607,
+   608,
+   610,
+   611
+  ]
+ },
+ "protocol_id": "ctnnb1-outer-face-v0.1",
+ "schema_version": "0.1",
+ "target": {
+  "gene": "CTNNB1",
+  "numbering_reference": "8Y0G",
+  "uniprot": "P35222"
+ },
+ "what_this_cannot_establish": [
+  "Function. Nothing is known to happen on the convex face; a ligand there might do nothing.",
+  "Competitive position. 51 clinical studies, nothing approved, every direct agent in the groove.",
+  "Construct breadth. Six of eight apo structures are one depositor in C222(1); three space groups, two depositors."
+ ]
+}

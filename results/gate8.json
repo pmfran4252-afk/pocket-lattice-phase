@@ -1,0 +1,170 @@
+[
+ {
+  "symbol": "PMS2",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "APC",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "PIK3CA",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "KRAS",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "EGFR",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "FGFR2",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "EP300",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "KIT",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "FGFR1",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "RAF1",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "AKT1",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "PDGFRA",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "FGFR4",
+  "n": 2,
+  "med": 0.9772727272727273,
+  "mn": 0.9545454545454546,
+  "pass40": true
+ },
+ {
+  "symbol": "NT5C2",
+  "n": 2,
+  "med": 0.9583333333333333,
+  "mn": 0.9166666666666666,
+  "pass40": true
+ },
+ {
+  "symbol": "MAPK1",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "ALDH2",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "IDH1",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "RAC1",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "BCL2",
+  "n": 1,
+  "med": 0.75,
+  "mn": 0.75,
+  "pass40": true
+ },
+ {
+  "symbol": "DDX3X",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "MEN1",
+  "n": 3,
+  "med": 0.3953488372093023,
+  "mn": 0.3902439024390244,
+  "pass40": false
+ },
+ {
+  "symbol": "YAP1",
+  "n": 8,
+  "med": 0.8535714285714285,
+  "mn": 0.8095238095238095,
+  "pass40": true
+ },
+ {
+  "symbol": "BTK",
+  "n": 0,
+  "med": null,
+  "mn": null,
+  "pass40": null
+ },
+ {
+  "symbol": "HRAS",
+  "n": 1,
+  "med": 0.09090909090909091,
+  "mn": 0.09090909090909091,
+  "pass40": false
+ }
+]

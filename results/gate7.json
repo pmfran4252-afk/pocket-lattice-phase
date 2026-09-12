@@ -1,0 +1,216 @@
+[
+ {
+  "symbol": "PMS2",
+  "worst": 0.926,
+  "best": 0.926,
+  "verdict": "PASS+flag",
+  "flags": [
+   "low occupancy"
+  ]
+ },
+ {
+  "symbol": "APC",
+  "worst": 0.843,
+  "best": 0.843,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "PIK3CA",
+  "worst": 0.908,
+  "best": 0.944,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "KRAS",
+  "worst": 0.961,
+  "best": 0.961,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "EGFR",
+  "worst": 0.947,
+  "best": 0.947,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "FGFR2",
+  "worst": 0.962,
+  "best": 0.966,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "EP300",
+  "worst": 0.82,
+  "best": 0.979,
+  "verdict": "PASS+flag",
+  "flags": [
+   "low occupancy"
+  ]
+ },
+ {
+  "symbol": "KIT",
+  "worst": 0.943,
+  "best": 0.955,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "CTNNB1",
+  "worst": 0.754,
+  "best": 0.754,
+  "verdict": "EXCLUDE",
+  "flags": []
+ },
+ {
+  "symbol": "FGFR1",
+  "worst": 0.935,
+  "best": 0.95,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "RAF1",
+  "worst": 0.852,
+  "best": 0.852,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "AKT1",
+  "worst": 0.952,
+  "best": 0.952,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "PDGFRA",
+  "worst": 0.952,
+  "best": 0.952,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "FGFR4",
+  "worst": 0.923,
+  "best": 0.923,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "TOP1",
+  "worst": null,
+  "verdict": "EXCLUDE"
+ },
+ {
+  "symbol": "BUB1",
+  "worst": 0.795,
+  "best": 0.822,
+  "verdict": "EXCLUDE",
+  "flags": []
+ },
+ {
+  "symbol": "NT5C2",
+  "worst": 0.869,
+  "best": 0.869,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "MAPK1",
+  "worst": 0.962,
+  "best": 0.962,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "ALDH2",
+  "worst": 0.801,
+  "best": 0.86,
+  "verdict": "PASS+flag",
+  "flags": [
+   "low occupancy"
+  ]
+ },
+ {
+  "symbol": "IDH1",
+  "worst": 0.935,
+  "best": 0.944,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "RAC1",
+  "worst": 0.938,
+  "best": 0.938,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "HRAS",
+  "worst": 0.452,
+  "best": 0.452,
+  "verdict": "EXCLUDE",
+  "flags": [
+   "low occupancy"
+  ]
+ },
+ {
+  "symbol": "BCL2",
+  "worst": 0.931,
+  "best": 0.931,
+  "verdict": "PASS+flag",
+  "flags": [
+   "incomplete"
+  ]
+ },
+ {
+  "symbol": "DDX3X",
+  "worst": 0.841,
+  "best": 0.841,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "MEN1",
+  "worst": 0.922,
+  "best": 0.997,
+  "verdict": "PASS+flag",
+  "flags": [
+   "low occupancy",
+   "not subject of investigation"
+  ]
+ },
+ {
+  "symbol": "YAP1",
+  "worst": 0.808,
+  "best": 0.808,
+  "verdict": "PASS",
+  "flags": []
+ },
+ {
+  "symbol": "WWTR1",
+  "worst": 0.792,
+  "best": 0.792,
+  "verdict": "EXCLUDE",
+  "flags": []
+ },
+ {
+  "symbol": "VHL",
+  "worst": 0.74,
+  "best": 0.74,
+  "verdict": "EXCLUDE",
+  "flags": []
+ },
+ {
+  "symbol": "BTK",
+  "worst": 0.946,
+  "best": 0.946,
+  "verdict": "PASS",
+  "flags": []
+ }
+]
